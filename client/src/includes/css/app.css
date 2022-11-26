@@ -1,0 +1,201 @@
+body{
+  background-image: url("../img/pic/Hotpot.png");
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.758);
+  height: 97.9vh; 
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  background-size: cover;
+  color: azure;
+}
+/* BASISC CSS STYLE */
+.text-bold{
+  font-weight: bolder;
+}
+
+.mt-1{
+  margin-top: 3%;
+}
+.mt-2{
+  margin-top: 3%;
+}
+.mt-3{
+  margin-top: 9%;
+}
+.mt-4{
+  margin-top: 12%;
+}
+.mt-5{
+  margin-top: 15%;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+.text-center{
+  text-align: center;
+}
+
+.row{
+  display: flex;
+}
+
+.btn{
+  border-radius: 15px;
+  font-size: 30px;
+  padding:10px;
+}
+
+/* ALERT STYLES */
+.alert{
+  z-index: 5;
+  margin: 10px;
+  height:80px;
+  font-size: 22px;
+  border-radius: 10px ;
+}
+.alert-warning{
+  background-color: rgba(255, 0, 0, 0.815);
+}
+
+.pos-close-alertBtn{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 82%;
+}
+
+.alert-progBar{
+  position: relative;
+  z-index: 5;
+  margin-top: -9px;
+}
+
+
+/* SPECIFIC APP STYLES */
+.App{
+  height: 80vh;
+  padding-top: 100px;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #530bee, #6457a69b);
+  box-shadow:  15px 10px 20px #52939c,-5px -12px 20px #70c5d4;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border: 3px solid rgb(25, 23, 23);
+  padding: 10px;
+}
+
+.choosePlayer{
+  display: flex;
+  gap: 15px;
+}
+
+.screenLock{
+  background-color: rgba(240, 255, 255, 0);
+  position: absolute;
+  top: -2.5px;
+  left:-5px;
+  width: 102%;
+  height: 97vh;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.box{
+  background-color: rgba(0, 0, 0, 0.455);
+  width:8rem;
+  height:8rem;
+  border: 3px solid rgb(10, 10, 10);
+}
+
+
+
+.playerO{
+  cursor: pointer;
+  margin: auto;
+  margin-top: 10%;
+  border: 10px solid rgba(186, 244, 62, 0.784);
+  box-shadow:15px 5px 45px rgba(186, 244, 62, 0.784),-5px -5px 20px rgba(186, 244, 62, 0.784); ;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 100px;
+}
+
+.playerX{
+  cursor: pointer;
+}
+
+.cross1{
+  margin-left: 15px;
+  margin-top: 50px;
+  background-color: rgba(244, 114, 62, 0.784);
+  transform: rotate(45deg);
+  width: 5rem;
+  height: 5px;
+  border: 5px solid rgba(244, 114, 62, 0.784);
+  box-shadow: 15px 5px 45px rgba(244, 62, 62, 0.784),-5px -5px 20px rgba(244, 19, 38, 0.784);
+}
+.cross2{
+  margin-left: 15px;
+  margin-top: -15px;
+  background-color: rgba(244, 114, 62, 0.784);
+  transform: rotate(135deg);
+  width: 5rem;
+  height: 5px;
+  border: 5px solid rgba(244, 114, 62, 0.784);
+  box-shadow: 15px 5px 45px rgba(244, 62, 62, 0.784),-5px -5px 20px rgba(244, 19, 38, 0.784);
+}
+
+.row1{
+  display: flex;
+  height: 6.4rem;
+  border: 1px solid rgb(13, 13, 13);
+}
+
+
+.field{
+  width:10rem;
+  border: 1px solid black;
+}
+
+.test{
+  margin-top: -27px;
+  margin-left: 18px;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.testdiv{
+  height:6.5rem
+}
+
+.Color-Red{
+  font-family: xofont;
+  color: red;
+  text-shadow:15px 5px 45px rgba(244, 62, 62, 0.784),-5px -5px 20px rgba(244, 19, 38, 0.784) ;
+}
+.Color-Green{
+  font-family: xofont;
+  color: greenyellow;
+  text-shadow: 15px 5px 45px rgba(186, 244, 62, 0.784),-5px -5px 20px rgba(186, 244, 62, 0.784);
+}
+
+
+
+.choice1{
+  border: 3px solid rgba(186, 244, 62, 0.784);
+  box-shadow: 15px 5px 45px rgba(186, 244, 62, 0.784),-5px -5px 20px rgba(186, 244, 62, 0.784);
+}
+.choice2{
+  border: 3px solid rgba(244, 114, 62, 0.784);
+  box-shadow: 15px 5px 45px rgba(244, 62, 62, 0.784),-5px -5px 20px rgba(244, 19, 38, 0.784);
+}
+
+
+
+/* FONTS IMPORT */
+@font-face {
+  font-family: xofont;
+  src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
+  font-weight: bold;
+}
